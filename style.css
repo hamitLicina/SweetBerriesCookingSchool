@@ -83,7 +83,7 @@ nav ul {
   }
 
   h1 {
-    font-family: 'Roboto Serif'; 
+    font-family: 'Roboto Serif', sans-serif; 
     font-style: normal; 
     font-weight: 500; 
     font-size: 60px; 
@@ -93,7 +93,7 @@ nav ul {
   }
 
   .banner p {
-    font-family: 'Roboto'; 
+    font-family: 'Roboto', sans-serif; 
     font-style: normal; 
     font-weight: 400; 
     font-size: 22px; 
@@ -123,7 +123,7 @@ nav ul {
   }
 
   .yellow h2 {
-    font-family: 'Roboto Serif'; 
+    font-family: 'Roboto Serif', sans-serif; 
     font-style: normal; 
     font-weight: 500; 
     font-size: 38px; 
@@ -145,14 +145,14 @@ nav ul {
   }
 
   .card h3 {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 24px; 
     color: var(--black);
     margin: 0px 10px;
   }
 
   .card p {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: var(--dark-gray);
     margin: 10px 10px;
@@ -168,7 +168,7 @@ nav ul {
   }
 
   .main-button {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     color: var(--black);
     background-color: var(--white);
     border: 1px solid var(--gray);
@@ -239,7 +239,7 @@ nav ul {
     }
   
     .yellow h2 {
-      font-family: 'Roboto Serif'; 
+      font-family: 'Roboto Serif', sans-serif; 
       font-style: normal; 
       font-weight: 500; 
       font-size: 32px; 
@@ -261,14 +261,14 @@ nav ul {
     }
   
     .card h3 {
-      font-family: 'Roboto';
+      font-family: 'Roboto', sans-serif;
       font-size: 20px; 
       color: var(--black);
       margin: 0px 10px;
     }
   
     .card p {
-      font-family: 'Roboto';
+      font-family: 'Roboto', sans-serif;
       font-size: 16px;
       color: var(--dark-gray);
       margin: 10px 10px;
@@ -339,7 +339,7 @@ nav ul {
      
      .banner h1 {
       width: 100%;
-      font-family: 'Roboto Serif';
+      font-family: 'Roboto Serif', sans-serif;
       font-style: normal;
       font-weight: 500;
       font-size: 36px;
@@ -380,7 +380,7 @@ nav ul {
       }
     
       .yellow h2 {
-        font-family: 'Roboto Serif'; 
+        font-family: 'Roboto Serif', sans-serif; 
         font-style: normal; 
         font-weight: 500; 
         font-size: 24px; 
@@ -402,14 +402,14 @@ nav ul {
       }
     
       .card h3 {
-        font-family: 'Roboto';
+        font-family: 'Roboto', sans-serif;
         font-size: 20px; 
         color: var(--black);
         margin: 0px 10px;
       }
     
       .card p {
-        font-family: 'Roboto';
+        font-family: 'Roboto', sans-serif;
         font-size: 16px;
         color: var(--dark-gray);
         margin: 10px 10px;
