@@ -19,33 +19,37 @@
   </head>
 
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">Courses</a></li>
-          <li><a href="#">About us</a></li>
-        </ul>
-      </nav>
-      <img
-        class="logo"
-        src="./assets/sweet-berries-logo.png"
-        alt="Sweet Berries Cooking School Logo"
-      />
-      <div class="container-burger">
-        <header class="small">
-          <div class="menu">
-            <label class="burger" for="menuchk" role="button">&#9776;</label>
-            <input type="checkbox" id="menuchk">
-            <nav class="burger-nav">
-              <ul>
-                <li><a href="#">Courses</a></li>
-                <li><a href="#">About us</a></li>
-              </ul>
-            </nav>
-          </div>
-        </header>
+    <header class="main-header">
+      <div class="header-container">
+        <nav class="desktop-nav">
+          <ul>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#about">About us</a></li>
+          </ul>
+        </nav>
+        
+        <a href="/" class="logo-link">
+          <img
+            class="logo"
+            src="./assets/sweet-berries-logo.png"
+            alt="Sweet Berries Cooking School Logo"
+          />
+        </a>
+
+        <div class="mobile-menu">
+          <button class="burger-menu" aria-label="Toggle menu">
+            <span class="burger-icon"></span>
+          </button>
+          <nav class="mobile-nav">
+            <ul>
+              <li><a href="#courses">Courses</a></li>
+              <li><a href="#about">About us</a></li>
+            </ul>
+          </nav>
+        </div>
+        
+        <button class="header-button" type="button">Get Started</button>
       </div>
-      <button class="header-button">Get Started</button>
     </header>
     <main>
       <section class="banner">
@@ -119,5 +123,6 @@
         alt="Sweet Berries Cooking School Logo"
       />
     </footer>
+    <script src="main.js"></script>
   </body>
 </html>
